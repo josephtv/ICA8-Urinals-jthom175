@@ -7,13 +7,23 @@ public class Urinals {
 
     static Urinals urinals = new Urinals();
     ArrayList<String> inputs = new ArrayList<>();
-    static String temp = "011";
     public static void main(String[] args) throws IOException {
         System.out.println("ICA8 Test: Urinals");
+        int count;
         urinals.readFile();
-        urinals.validString("abc-abc");
+        ArrayList<Integer> outputList = new ArrayList<>();
+        for(String urinalString: urinals.inputs) {
+            if(urinals.validString(urinalString)) {
+                count = urinals.countUrinals(urinalString);
+                outputList.add(count);
+            }
+            else{
+                outputList.add(-1);
+            }
+        }
 
-        System.out.println(urinals.countUrinals(temp));
+        System.out.println("Output: "+outputList);
+
     }
 
     void readFile() throws IOException {
@@ -30,17 +40,17 @@ public class Urinals {
            inputs.add(lineFromFile);
         }
 
-        System.out.println(inputs.toString());
+        System.out.println("Inputs: "+inputs.toString());
 
     }
 
     Boolean validString(String str) {
         if(str.matches("^[01]+$") && str.length() >= 1 && str.length() <= 20) {
-            System.out.println("valid String");
+            System.out.println(str + " is a valid String");
             return true;
         }
         else {
-            System.out.println("Invalid String");
+            System.out.println(str + " is an invalid String");
             return false;
         }
     }
