@@ -9,12 +9,11 @@ public class Urinals {
     ArrayList<String> inputs = new ArrayList<>();
     public static void main(String[] args) throws IOException {
         System.out.println("ICA8 Test: Urinals");
-        int count;
         urinals.readFile();
         ArrayList<Integer> outputList = new ArrayList<>();
         for(String urinalString: urinals.inputs) {
             if(urinals.validString(urinalString)) {
-                count = urinals.countUrinals(urinalString);
+                int count = urinals.countUrinals(urinalString);
                 outputList.add(count);
             }
             else{

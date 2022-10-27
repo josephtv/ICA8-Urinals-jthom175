@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="290f6e70-a0f5-4401-80f0-25f86eaec018" name="Changes" comment="added one more countUrinal test case for different string">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="290f6e70-a0f5-4401-80f0-25f86eaec018" name="Changes" comment="integrating functions so far implemented">
       <change beforePath="$PROJECT_DIR$/src/main/java/com/urinals/Urinals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/urinals/Urinals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/urinal.dat" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/urinal.dat" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,7 +159,7 @@
       <option name="presentableId" value="Default" />
       <updated>1666892859846</updated>
       <workItem from="1666892862387" duration="3885000" />
-      <workItem from="1666897425098" duration="10230000" />
+      <workItem from="1666897425098" duration="10330000" />
     </task>
     <task id="LOCAL-00001" summary="creating new develop branch">
       <created>1666899700210</created>
@@ -247,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666906938287</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="integrating functions so far implemented">
+      <created>1666909038859</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1666909038859</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,7 +275,8 @@
     <MESSAGE value="added function to read file" />
     <MESSAGE value="added countUrinal function and one test case" />
     <MESSAGE value="added one more countUrinal test case for different string" />
-    <option name="LAST_COMMIT_MESSAGE" value="added one more countUrinal test case for different string" />
+    <MESSAGE value="integrating functions so far implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="integrating functions so far implemented" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Urinals$UrinalsTest.ic" NAME="UrinalsTest Coverage Results" MODIFIED="1666896134066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
