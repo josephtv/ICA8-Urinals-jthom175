@@ -32,4 +32,15 @@ class UrinalsTest {
         String testString = "abc-abc";
         assertEquals(false,urinals.validString(testString));
     }
+
+    @Test
+    public void validString_Test3() {
+
+        System.out.println("====== Joseph Thomas == TEST THREE EXECUTED =======");
+        Urinals urinals = new Urinals();
+        String testString = "111111111100000000001";
+        //assertTrue(testString.length()<=20,"Max String length must be 20");
+        assertEquals(false,urinals.validString(testString));
+    }
+
 }

@@ -9,7 +9,7 @@ public class Urinals {
     }
 
     Boolean validString(String str) {
-        if(str.matches("^[01]+$")) {
+        if(str.matches("^[01]+$") && str.length() >= 1 && str.length() <= 20) {
             System.out.println("valid String");
             return true;
         }

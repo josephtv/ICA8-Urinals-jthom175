@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="290f6e70-a0f5-4401-80f0-25f86eaec018" name="Changes" comment="creating new develop branch">
+    <list default="true" id="290f6e70-a0f5-4401-80f0-25f86eaec018" name="Changes" comment="implementing valid string function and adding test cases">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/urinals/Urinals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/urinals/Urinals.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/urinals/UrinalsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/urinals/UrinalsTest.java" afterDir="false" />
@@ -113,8 +113,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.UrinalsTest" />
-        <item itemvalue="JUnit.UrinalsTest.validString_MaxLength" />
         <item itemvalue="Application.Urinals" />
+        <item itemvalue="JUnit.UrinalsTest.validString_MaxLength" />
       </list>
     </recent_temporary>
   </component>
@@ -127,7 +127,7 @@
       <option name="presentableId" value="Default" />
       <updated>1666892859846</updated>
       <workItem from="1666892862387" duration="3885000" />
-      <workItem from="1666897425098" duration="2900000" />
+      <workItem from="1666897425098" duration="3438000" />
     </task>
     <task id="LOCAL-00001" summary="creating new develop branch">
       <created>1666899700210</created>
@@ -136,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666899700210</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="implementing valid string function and adding test cases">
+      <created>1666900610762</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1666900610762</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,7 +162,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="creating new develop branch" />
-    <option name="LAST_COMMIT_MESSAGE" value="creating new develop branch" />
+    <MESSAGE value="implementing valid string function and adding test cases" />
+    <option name="LAST_COMMIT_MESSAGE" value="implementing valid string function and adding test cases" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Urinals$UrinalsTest.ic" NAME="UrinalsTest Coverage Results" MODIFIED="1666896134066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
