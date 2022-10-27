@@ -9,7 +9,13 @@ public class Urinals {
     }
 
     Boolean validString(String str) {
-        System.out.println("To be implemented");
-        return true;
+        if(str.matches("^[01]+$")) {
+            System.out.println("valid String");
+            return true;
+        }
+        else {
+            System.out.println("Invalid String");
+            return false;
+        }
     }
 }

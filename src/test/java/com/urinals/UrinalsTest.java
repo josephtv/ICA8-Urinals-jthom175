@@ -16,13 +16,20 @@ class UrinalsTest {
     }
 
     @Test
-    public void validString_MaxLength() {
+    public void validString_Test1() {
 
         System.out.println("====== Joseph Thomas == TEST ONE EXECUTED =======");
         Urinals urinals = new Urinals();
         String testString = "101010";
-        //Urinals.main(null);
         assertEquals(true,urinals.validString(testString));
-        //assertTrue(testString.matches("^[01]+$"), "String should contain 1s and 0s only");
-       }
+        }
+
+    @Test
+    public void validString_Test2() {
+
+        System.out.println("====== Joseph Thomas == TEST TWO EXECUTED =======");
+        Urinals urinals = new Urinals();
+        String testString = "abc-abc";
+        assertEquals(false,urinals.validString(testString));
+    }
 }
