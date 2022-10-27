@@ -91,4 +91,12 @@ class UrinalsTest {
         String testString = "01000";
         assertEquals(1,urinals.countUrinals(testString));
     }
+
+    @Test
+    void countUrinals_Test6() {
+        System.out.println("====== Joseph Thomas == TEST TEN EXECUTED =======");
+        Urinals urinals = new Urinals();
+        String testString = "011";
+        assertEquals(-1,urinals.countUrinals(testString));
+    }
 }

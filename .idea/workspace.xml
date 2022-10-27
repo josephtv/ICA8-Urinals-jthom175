@@ -63,8 +63,8 @@
       <recent name="com.urinals" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UrinalsTest.countUrinals_Test5">
-    <configuration name="UrinalsTest.countUrinals_Test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.UrinalsTest">
+    <configuration name="UrinalsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Urinals" />
       <extension name="coverage">
         <pattern>
@@ -74,24 +74,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.urinals" />
       <option name="MAIN_CLASS_NAME" value="com.urinals.UrinalsTest" />
-      <option name="METHOD_NAME" value="countUrinals_Test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UrinalsTest.countUrinals_Test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Urinals" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.urinals.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.urinals" />
-      <option name="MAIN_CLASS_NAME" value="com.urinals.UrinalsTest" />
-      <option name="METHOD_NAME" value="countUrinals_Test2" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -144,13 +127,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UrinalsTest.countUrinals_Test6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Urinals" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.urinals.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.urinals" />
+      <option name="MAIN_CLASS_NAME" value="com.urinals.UrinalsTest" />
+      <option name="METHOD_NAME" value="countUrinals_Test6" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UrinalsTest" />
+        <item itemvalue="JUnit.UrinalsTest.countUrinals_Test6" />
         <item itemvalue="JUnit.UrinalsTest.countUrinals_Test5" />
         <item itemvalue="JUnit.UrinalsTest.countUrinals_Test4" />
         <item itemvalue="JUnit.UrinalsTest.countUrinals_Test3" />
-        <item itemvalue="JUnit.UrinalsTest.countUrinals_Test2" />
-        <item itemvalue="JUnit.UrinalsTest.countUrinals_Test1" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +162,7 @@
       <option name="presentableId" value="Default" />
       <updated>1666892859846</updated>
       <workItem from="1666892862387" duration="3885000" />
-      <workItem from="1666897425098" duration="9041000" />
+      <workItem from="1666897425098" duration="9096000" />
     </task>
     <task id="LOCAL-00001" summary="creating new develop branch">
       <created>1666899700210</created>
@@ -228,7 +227,21 @@
       <option name="project" value="LOCAL" />
       <updated>1666906804178</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="added one more countUrinal test case for different string">
+      <created>1666906840732</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1666906840732</updated>
+    </task>
+    <task id="LOCAL-00011" summary="added one more countUrinal test case for different string">
+      <created>1666906852594</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1666906852594</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
