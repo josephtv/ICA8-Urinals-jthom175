@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="290f6e70-a0f5-4401-80f0-25f86eaec018" name="Changes" comment="implementing valid string function and adding test cases">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/urinals/Urinals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/urinals/Urinals.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/urinals/UrinalsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/urinals/UrinalsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -127,7 +125,7 @@
       <option name="presentableId" value="Default" />
       <updated>1666892859846</updated>
       <workItem from="1666892862387" duration="3885000" />
-      <workItem from="1666897425098" duration="3438000" />
+      <workItem from="1666897425098" duration="3475000" />
     </task>
     <task id="LOCAL-00001" summary="creating new develop branch">
       <created>1666899700210</created>
@@ -143,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666900610762</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="implementing valid string function and adding test cases">
+      <created>1666901094170</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1666901094170</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
