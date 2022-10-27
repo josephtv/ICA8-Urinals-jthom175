@@ -3,26 +3,30 @@ package com.urinals;
 import java.io.*;
 import java.util.ArrayList;
 
+/**
+ * @author JOSEPH THOMAS
+ */
 public class Urinals {
 
     static Urinals urinals = new Urinals();
     ArrayList<String> inputs = new ArrayList<>();
+
+    ArrayList<Integer> outputList = new ArrayList<>();
     public static void main(String[] args) throws IOException {
         System.out.println("ICA8 Test: Urinals");
         urinals.readFile();
-        ArrayList<Integer> outputList = new ArrayList<>();
         for(String urinalString: urinals.inputs) {
             if(urinals.validString(urinalString)) {
                 int count = urinals.countUrinals(urinalString);
-                outputList.add(count);
+                urinals.outputList.add(count);
             }
             else{
-                outputList.add(-1);
+                urinals.outputList.add(-1);
             }
         }
 
-        System.out.println("Output: "+outputList);
-
+        System.out.println("Output: "+urinals.outputList);
+        urinals.writeFile();
     }
 
     void readFile() throws IOException {
@@ -41,6 +45,25 @@ public class Urinals {
 
         System.out.println("Inputs: "+inputs.toString());
 
+    }
+
+    void writeFile() throws IOException {
+        int num = 1;
+        String fileName = "rule.txt";
+        File file = new File("src/main/resources/", fileName);
+        while(file.exists()) {
+            fileName = "rule" + (num++) +".txt";
+            file = new File("src/main/resources/", fileName);
+        }
+        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(file));
+        for(int i=0; i<urinals.outputList.size();i++) {
+            Integer integer = urinals.outputList.get(i);
+            bufferedWriter.write(integer.toString());
+            if (i < urinals.outputList.size() -1 ) {
+                bufferedWriter.newLine();
+            }
+        }
+        bufferedWriter.close();
     }
 
     Boolean validString(String str) {
