@@ -1,7 +1,15 @@
 package com.urinals;
 
-public class Main {
+public class Urinals {
+
+    static Urinals urinals = new Urinals();
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        System.out.println("ICA8 Test: Urinals");
+        urinals.validString("abc-abc");
+    }
+
+    Boolean validString(String str) {
+        System.out.println("To be implemented");
+        return true;
     }
 }
