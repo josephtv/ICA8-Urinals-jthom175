@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="290f6e70-a0f5-4401-80f0-25f86eaec018" name="Changes" comment="Testing with new files">
+    <list default="true" id="290f6e70-a0f5-4401-80f0-25f86eaec018" name="Changes" comment="Handled empty file scenario">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/urinals/Urinals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/urinals/Urinals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/urinals/UrinalsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/urinals/UrinalsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,22 +95,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UrinalsTest.countUrinals_Test6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Urinals" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.urinals.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.urinals" />
-      <option name="MAIN_CLASS_NAME" value="com.urinals.UrinalsTest" />
-      <option name="METHOD_NAME" value="countUrinals_Test6" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="UrinalsTest.countUrinals_Test7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Urinals" />
       <extension name="coverage">
@@ -127,7 +111,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UrinalsTest.testReadFileWithResource" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UrinalsTest.testReadFile_Test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Urinals" />
       <extension name="coverage">
         <pattern>
@@ -137,7 +121,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.urinals" />
       <option name="MAIN_CLASS_NAME" value="com.urinals.UrinalsTest" />
-      <option name="METHOD_NAME" value="testReadFileWithResource" />
+      <option name="METHOD_NAME" value="testReadFile_Test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UrinalsTest.testWrite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Urinals" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.urinals.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.urinals" />
+      <option name="MAIN_CLASS_NAME" value="com.urinals.UrinalsTest" />
+      <option name="METHOD_NAME" value="testWrite" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -147,9 +147,9 @@
       <list>
         <item itemvalue="Application.Urinals" />
         <item itemvalue="JUnit.UrinalsTest" />
+        <item itemvalue="JUnit.UrinalsTest.testWrite" />
+        <item itemvalue="JUnit.UrinalsTest.testReadFile_Test2" />
         <item itemvalue="JUnit.UrinalsTest.countUrinals_Test7" />
-        <item itemvalue="JUnit.UrinalsTest.testReadFileWithResource" />
-        <item itemvalue="JUnit.UrinalsTest.countUrinals_Test6" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +163,7 @@
       <updated>1666892859846</updated>
       <workItem from="1666892862387" duration="3885000" />
       <workItem from="1666897425098" duration="11406000" />
-      <workItem from="1666910219917" duration="4899000" />
+      <workItem from="1666910219917" duration="6930000" />
     </task>
     <task id="LOCAL-00001" summary="creating new develop branch">
       <created>1666899700210</created>
@@ -284,7 +284,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666916403661</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Handled empty file scenario">
+      <created>1666917720847</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1666917720847</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -311,7 +318,8 @@
     <MESSAGE value="implemented write function" />
     <MESSAGE value="Added test case for reading file" />
     <MESSAGE value="Testing with new files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Testing with new files" />
+    <MESSAGE value="Handled empty file scenario" />
+    <option name="LAST_COMMIT_MESSAGE" value="Handled empty file scenario" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Urinals$UrinalsTest.ic" NAME="UrinalsTest Coverage Results" MODIFIED="1666896134066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
