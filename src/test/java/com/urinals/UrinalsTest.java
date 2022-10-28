@@ -110,6 +110,7 @@ class UrinalsTest {
 
     @Test
     public void testReadFile() {
+        System.out.println("====== Joseph Thomas == TEST ELEVEN EXECUTED =======");
         File file = new File("src/main/resources/urinal.dat");
         assertTrue(file.exists());
     }
