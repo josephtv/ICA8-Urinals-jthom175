@@ -12,20 +12,20 @@ public class Urinals {
     ArrayList<String> inputs = new ArrayList<>();
 
     ArrayList<Integer> outputList = new ArrayList<>();
+
     public static void main(String[] args) throws IOException {
         System.out.println("ICA8 Test: Urinals");
         urinals.readFile();
-        for(String urinalString: urinals.inputs) {
-            if(urinals.validString(urinalString)) {
+        for (String urinalString : urinals.inputs) {
+            if (urinals.validString(urinalString)) {
                 int count = urinals.countUrinals(urinalString);
                 urinals.outputList.add(count);
-            }
-            else{
+            } else {
                 urinals.outputList.add(-1);
             }
         }
 
-        System.out.println("Output: "+urinals.outputList);
+        System.out.println("Output: " + urinals.outputList);
         urinals.writeFile();
     }
 
@@ -37,13 +37,13 @@ public class Urinals {
         String lineFromFile;
 
         while ((lineFromFile = bufferedReader.readLine()) != null) {
-           if(lineFromFile.equals("-1")) {
-               break;
-           }
-           inputs.add(lineFromFile);
+            if (lineFromFile.equals("-1")) {
+                break;
+            }
+            inputs.add(lineFromFile);
         }
 
-        System.out.println("Inputs: "+inputs.toString());
+        System.out.println("Inputs: " + inputs.toString());
 
     }
 
@@ -51,15 +51,15 @@ public class Urinals {
         int num = 1;
         String fileName = "rule.txt";
         File file = new File("src/main/resources/", fileName);
-        while(file.exists()) {
-            fileName = "rule" + (num++) +".txt";
+        while (file.exists()) {
+            fileName = "rule" + (num++) + ".txt";
             file = new File("src/main/resources/", fileName);
         }
         BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(file));
-        for(int i=0; i<urinals.outputList.size();i++) {
+        for (int i = 0; i < urinals.outputList.size(); i++) {
             Integer integer = urinals.outputList.get(i);
             bufferedWriter.write(integer.toString());
-            if (i < urinals.outputList.size() -1 ) {
+            if (i < urinals.outputList.size() - 1) {
                 bufferedWriter.newLine();
             }
         }
@@ -67,11 +67,10 @@ public class Urinals {
     }
 
     Boolean validString(String str) {
-        if(str.matches("^[01]+$") && str.length() >= 1 && str.length() <= 20) {
+        if (str.matches("^[01]+$") && str.length() >= 1 && str.length() <= 20) {
             System.out.println(str + " is a valid String");
             return true;
-        }
-        else {
+        } else {
             System.out.println(str + " is an invalid String");
             return false;
         }
@@ -81,8 +80,8 @@ public class Urinals {
     int countUrinals(String temp) {
 
         int length = temp.length();
-        for(int i = 0; i<length-1; i++) {
-            if(temp.charAt(i) == '1' && temp.charAt(i+1) == '1') {
+        for (int i = 0; i < length - 1; i++) {
+            if (temp.charAt(i) == '1' && temp.charAt(i + 1) == '1') {
                 return -1;
             }
         }
@@ -91,23 +90,22 @@ public class Urinals {
         int ans = 1;
         int tmp = 0;
 
-        for(int i = 0; i<length; i++) {
-            if(temp.charAt(i) == '0' && (i == 0 || temp.charAt(i - 1) == '0') && (i == (length - 1) || temp.charAt(i + 1) == '0')) {
+        for (int i = 0; i < length; i++) {
+            if (temp.charAt(i) == '0' && (i == 0 || temp.charAt(i - 1) == '0') && (i == (length - 1) || temp.charAt(i + 1) == '0')) {
                 tmp += 1;
                 flag = true;
-            }
-            else {
-                if(tmp>0) {
-                    ans = ans * (tmp+1)/2;
+            } else {
+                if (tmp > 0) {
+                    ans = ans * (tmp + 1) / 2;
                     tmp = 0;
                 }
             }
         }
-        if(tmp>0) {
-            ans = ans * (tmp+1)/2;
+        if (tmp > 0) {
+            ans = ans * (tmp + 1) / 2;
         }
 
-        if(flag) {
+        if (flag) {
             return ans;
         }
         return 0;
