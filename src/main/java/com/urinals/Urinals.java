@@ -16,6 +16,10 @@ public class Urinals {
     public static void main(String[] args) throws IOException {
         System.out.println("ICA8 Test: Urinals");
         urinals.readFile();
+        if(urinals.inputs.size() == 0) {
+            System.out.println("The file does not have any valid/invalid strings");
+            System.exit(-1);
+        }
         for (String urinalString : urinals.inputs) {
             if (urinals.validString(urinalString)) {
                 int count = urinals.countUrinals(urinalString);
