@@ -1,11 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="290f6e70-a0f5-4401-80f0-25f86eaec018" name="Changes" comment="" />
+    <list default="true" id="290f6e70-a0f5-4401-80f0-25f86eaec018" name="Changes" comment="Added test case for reading file">
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/urinals/UrinalsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/urinals/UrinalsTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2GjCxtg0tFHtvjTxo1yqbpfNux4" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -15,11 +38,119 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers": "true",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "fileTemplates"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.urinals" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Urinals">
+    <configuration name="Urinals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.urinals.Urinals" />
+      <module name="Urinals" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.urinals.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UrinalsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Urinals" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.urinals.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.urinals" />
+      <option name="MAIN_CLASS_NAME" value="com.urinals.UrinalsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UrinalsTest.countUrinals_Test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Urinals" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.urinals.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.urinals" />
+      <option name="MAIN_CLASS_NAME" value="com.urinals.UrinalsTest" />
+      <option name="METHOD_NAME" value="countUrinals_Test5" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UrinalsTest.countUrinals_Test6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Urinals" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.urinals.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.urinals" />
+      <option name="MAIN_CLASS_NAME" value="com.urinals.UrinalsTest" />
+      <option name="METHOD_NAME" value="countUrinals_Test6" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UrinalsTest.testReadFileWithResource" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Urinals" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.urinals.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.urinals" />
+      <option name="MAIN_CLASS_NAME" value="com.urinals.UrinalsTest" />
+      <option name="METHOD_NAME" value="testReadFileWithResource" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Urinals" />
+        <item itemvalue="JUnit.UrinalsTest.testReadFileWithResource" />
+        <item itemvalue="JUnit.UrinalsTest" />
+        <item itemvalue="JUnit.UrinalsTest.countUrinals_Test6" />
+        <item itemvalue="JUnit.UrinalsTest.countUrinals_Test5" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -28,8 +159,127 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1666892859846</updated>
+      <workItem from="1666892862387" duration="3885000" />
+      <workItem from="1666897425098" duration="11406000" />
+      <workItem from="1666910219917" duration="3508000" />
     </task>
+    <task id="LOCAL-00001" summary="creating new develop branch">
+      <created>1666899700210</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1666899700210</updated>
+    </task>
+    <task id="LOCAL-00002" summary="implementing valid string function and adding test cases">
+      <created>1666900610762</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1666900610762</updated>
+    </task>
+    <task id="LOCAL-00003" summary="implementing valid string function and adding test cases">
+      <created>1666901094170</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1666901094170</updated>
+    </task>
+    <task id="LOCAL-00004" summary="implementing valid string function and adding test cases">
+      <created>1666901136499</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1666901136499</updated>
+    </task>
+    <task id="LOCAL-00005" summary="added function to read file">
+      <created>1666903260895</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1666903260895</updated>
+    </task>
+    <task id="LOCAL-00006" summary="added countUrinal function and one test case">
+      <created>1666906630617</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1666906630617</updated>
+    </task>
+    <task id="LOCAL-00007" summary="added one more countUrinal test case for different string">
+      <created>1666906706652</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1666906706652</updated>
+    </task>
+    <task id="LOCAL-00008" summary="added one more countUrinal test case for different string">
+      <created>1666906753904</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1666906753904</updated>
+    </task>
+    <task id="LOCAL-00009" summary="added one more countUrinal test case for different string">
+      <created>1666906804178</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1666906804178</updated>
+    </task>
+    <task id="LOCAL-00010" summary="added one more countUrinal test case for different string">
+      <created>1666906840732</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1666906840732</updated>
+    </task>
+    <task id="LOCAL-00011" summary="added one more countUrinal test case for different string">
+      <created>1666906852594</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1666906852594</updated>
+    </task>
+    <task id="LOCAL-00012" summary="added one more countUrinal test case for different string">
+      <created>1666906938287</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1666906938287</updated>
+    </task>
+    <task id="LOCAL-00013" summary="integrating functions so far implemented">
+      <created>1666909038859</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1666909038859</updated>
+    </task>
+    <task id="LOCAL-00014" summary="integrating functions so far implemented">
+      <created>1666909194482</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1666909194482</updated>
+    </task>
+    <task id="LOCAL-00015" summary="implemented write function">
+      <created>1666911401639</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1666911401639</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Added test case for reading file">
+      <created>1666916276406</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1666916276406</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -41,5 +291,21 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="creating new develop branch" />
+    <MESSAGE value="implementing valid string function and adding test cases" />
+    <MESSAGE value="added function to read file" />
+    <MESSAGE value="added countUrinal function and one test case" />
+    <MESSAGE value="added one more countUrinal test case for different string" />
+    <MESSAGE value="integrating functions so far implemented" />
+    <MESSAGE value="implemented write function" />
+    <MESSAGE value="Added test case for reading file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added test case for reading file" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Urinals$UrinalsTest.ic" NAME="UrinalsTest Coverage Results" MODIFIED="1666896134066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.urinals.*</FILTER>
+    </SUITE>
   </component>
 </project>
